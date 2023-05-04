@@ -28,8 +28,8 @@ def main():
                 min_d = d
                 min_date = row[0]
 
-    max_d = round(max_d,2)
-    min_d = round(min_d,2)
+    max_d = round(max_d,1)
+    min_d = round(min_d,1)
 
     print("*** Annual Temperature Report for Seoul in 2022 ***")
     print("Day with the Largest Temperature Variation: {}".format(max_date))

@@ -34,8 +34,8 @@ def main():
 
     print("*** Annual Temperature Report for Seoul in 2022 ***")
     print("Average Temperature: {:.2f} Celsius".format(average))
-    print("Average Minimum Temperature: {:.2f}".format(min_temp))
-    print("Average Maximum Temperature: {:.2f}".format(max_temp))
+    print("Average Minimum Temperature: {:.2f} Celsius".format(min_temp))
+    print("Average Maximum Temperature: {:.2f} Celsius".format(max_temp))
     
     f.close()
 if __name__ == '__main__':
